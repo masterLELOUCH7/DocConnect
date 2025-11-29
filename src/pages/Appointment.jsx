@@ -5,43 +5,43 @@ import { assets } from '../assets/assets';
 
 const Appointment = () => {
 
-  const { docId } = useParams();
-  const { doctors, currencySymbol } = useContext(AppContext);
-  const daysOfWeek = [ 'SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT' ];
+  const { docId } = useParams()
+  const { doctors, currencySymbol } = useContext(AppContext)
+  const daysOfWeek = [ 'SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT' ]
 
-  const [docInfo, setDocInfo] = useState(null);
-  const [docSlots, setDocSlots] = useState([]);
-  const [slotIndex, setSlotIndex] = useState(0);
-  const [slotTime, setSlotTime] = useState('');
+  const [docInfo, setDocInfo] = useState(null)
+  const [docSlots, setDocSlots] = useState([])
+  const [slotIndex, setSlotIndex] = useState(0)
+  const [slotTime, setSlotTime] = useState('')
 
   const fetchDocInfo = async () => {
     const docInfo = doctors.find(doc => doc._id === docId);
-    setDocInfo(docInfo);
+    setDocInfo(docInfo)
   };
 
   const getAvailableSlots = async () => {
-    setDocSlots([]);
+    setDocSlots([])
 
-    let today = new Date();
-    let currentDate = new Date(today);
+    let today = new Date()
+    let currentDate = new Date(today)
 
     for (let i = 0; i < 7; i++) {
-      currentDate = new Date(today);
-      currentDate.setDate(today.getDate() + i);
+      currentDate = new Date(today)
+      currentDate.setDate(today.getDate() + i)
 
-      let endTime = new Date(today);
-      endTime.setDate(today.getDate() + i);
-      endTime.setHours(21, 0, 0, 0);
+      let endTime = new Date(today)
+      endTime.setDate(today.getDate() + i)
+      endTime.setHours(21, 0, 0, 0)
 
       if (today.getDate() === currentDate.getDate()) {
-        currentDate.setHours(currentDate.getHours() > 10 ? currentDate.getHours() + 1 : 10);
-        currentDate.setMinutes(currentDate.getMinutes() > 30 ? 30 : 0);
+        currentDate.setHours(currentDate.getHours() > 10 ? currentDate.getHours() + 1 : 10)
+        currentDate.setMinutes(currentDate.getMinutes() > 30 ? 30 : 0)
       } else {
-        currentDate.setHours(10);
-        currentDate.setMinutes(0);
+        currentDate.setHours(10)
+        currentDate.setMinutes(0)
       }
 
-      let timeSlots = [];
+      let timeSlots = []
       while (currentDate < endTime) {
         let formattedTime = currentDate.toLocaleTimeString([], {
           hour: '2-digit',
@@ -53,20 +53,20 @@ const Appointment = () => {
           time: formattedTime
         });
 
-        currentDate.setMinutes(currentDate.getMinutes() + 30);
+        currentDate.setMinutes(currentDate.getMinutes() + 30)
       }
 
-      setDocSlots(prev => [...prev, timeSlots]);
+      setDocSlots(prev => [...prev, timeSlots])
     }
   };
 
   useEffect(() => {
-    fetchDocInfo();
-  }, [doctors, docId]);
+    fetchDocInfo()
+  }, [doctors, docId])
 
   useEffect(() => {
-    getAvailableSlots();
-  }, [docInfo]);
+    getAvailableSlots()
+  }, [docInfo])
 
   return docInfo && (
     <div className='flex flex-col gap-4'>
@@ -124,6 +124,16 @@ const Appointment = () => {
                 ))
               }
             </div>
+
+              <div className='flex item-center gap-3 w-full overflow-x-scroll mt-4  '>
+                {docSlots.length && docSlots[slotIndex].map((item,index)=>(
+                  <p className={` text-sm font-light flex-shrink-0 px-5 py-2 rounded-full cursor-pointer `} key={index} >
+                    {item.time.toLowerCase()}
+                    
+                  </p>
+                ))}
+              </div>
+
           </div>
 
         </div>

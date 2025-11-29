@@ -93,7 +93,7 @@ export const doctors = [
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Rajesh Kumar is a trusted General Physician known for his strong clinical judgment and dedication to preventive care. He specializes in managing lifestyle disorders, viral infections, and chronic conditions with a holistic approach.',
         fees: 400,
         address: {
             line1: '17th Cross, Indiranagar',
@@ -107,7 +107,7 @@ export const doctors = [
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Ananya Sharma is a compassionate Gynecologist with expertise in women’s reproductive health, pregnancy care, and hormonal wellness. She is known for making patients feel comfortable and well-understood.',
         fees: 500,
         address: {
             line1: 'Sector 22, Chandigarh',
@@ -121,7 +121,7 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Priyanshu Singh is a Dermatologist specializing in acne, pigmentation, hair fall management, and cosmetic skin treatments. Known for modern treatment techniques and patient-friendly counseling.',
         fees: 700,
         address: {
             line1: 'Powai Lane',
@@ -135,7 +135,7 @@ export const doctors = [
         speciality: 'Pediatricians',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Abhishek Verma is a caring Pediatrician who specializes in child growth monitoring, vaccination, and treatment of common childhood illnesses with utmost patience and warmth.',
         fees: 350,
         address: {
             line1: 'Kukatpally Road',
@@ -149,7 +149,7 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Manvi Bansal specializes in diagnosing and managing neurological disorders including migraines, epilepsy, and nerve function issues. She is known for detailed evaluation and effective care plans.',
         fees: 600,
         address: {
             line1: 'Salt Lake Sector 5',
@@ -163,7 +163,7 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Arjun Mehta is an experienced Neurologist focused on treating stroke recovery cases, spinal cord disorders, and neuro-rehabilitation using advanced clinical techniques.',
         fees: 650,
         address: {
             line1: 'MG Road',
@@ -177,7 +177,7 @@ export const doctors = [
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Vivek Gupta is a respected General Physician skilled in treating infectious diseases, diabetes, blood pressure, and seasonal illness with a preventive and patient-centric approach.',
         fees: 450,
         address: {
             line1: 'Sector 18',
@@ -191,7 +191,7 @@ export const doctors = [
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Megha Kapoor focuses on high-risk pregnancy care, menstrual issues, PCOS treatment, and fertility support, offering personalized and supportive consultations.',
         fees: 550,
         address: {
             line1: 'Civil Lines',
@@ -205,7 +205,7 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Kavita Nair is a Dermatologist specializing in aesthetic skin procedures, allergy management, and anti-aging treatments using safe and tested dermatological practices.',
         fees: 500,
         address: {
             line1: 'Vyttila',
@@ -219,7 +219,7 @@ export const doctors = [
         speciality: 'Pediatricians',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Suresh Reddy is known for his patient approach with newborn and toddler care, vaccinations, nutrition guidance, and pediatric emergency handling.',
         fees: 450,
         address: {
             line1: 'Jubilee Hills',
@@ -233,7 +233,7 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Ritu Malhotra specializes in treating migraine disorders, sleep disorders, dementia, and nerve pain with a strong emphasis on lifestyle-based recovery.',
         fees: 700,
         address: {
             line1: 'MI Road',
@@ -247,7 +247,7 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Manish Thakur is committed to helping patients with neurological disability, balance problems, and neuromuscular disorders through accurate diagnosis and advanced care.',
         fees: 650,
         address: {
             line1: 'Sector 12',
@@ -261,7 +261,7 @@ export const doctors = [
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Sneha Pandey specializes in lifestyle counseling, chronic illness management, and preventive healthcare with the goal of improving long-term wellness.',
         fees: 400,
         address: {
             line1: 'Boring Road',
@@ -270,12 +270,12 @@ export const doctors = [
     },
     {
         _id: 'doc14',
-        name: 'Dr. Abhishek nayak',
+        name: 'Dr. Abhishek Nayak',
         image: doc14,
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Abhishek Nayak provides expert care in fertility counseling, adolescent gynecology, and treatment of complex menstrual irregularities with modern clinical approaches.',
         fees: 550,
         address: {
             line1: 'Hazratganj',
@@ -289,7 +289,7 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr. Babita Iyer specializes in skin rejuvenation, scar reduction treatments, and dermatological therapy with a gentle and effective clinical style.',
         fees: 500,
         address: {
             line1: 'T. Nagar',
@@ -297,3 +297,4 @@ export const doctors = [
         }
     },
 ];
+
